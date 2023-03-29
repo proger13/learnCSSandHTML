@@ -16,5 +16,26 @@
          text-align: center;
        }
 
+       element.style {
+         border-color: blue;
+         width: 300px;
+     }
+     img[Attributes Style] {
+         border-top-width: 35px;
+         border-bottom-width: 35px;
+         border-left-width: 35px;
+         border-right-width: 35px;
+         border-top-style: solid;
+         border-bottom-style: solid;
+         border-left-style: solid;
+         border-right-style: solid;
+         float: right;
+         vertical-align: top;
+     }
+     user agent stylesheet
+     img {
+         overflow-clip-margin: content-box;
+         overflow: clip;
+     }
 
    
